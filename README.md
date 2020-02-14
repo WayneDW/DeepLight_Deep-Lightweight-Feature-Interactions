@@ -11,11 +11,9 @@
 
 4. Sklearn
 
-#### Preprocess data
+## Preprocess data
 
-The Criteo dataset has a single 2-class label with 22 categorical features and 11 numerical features.
-
-The folder already has a tiny dataset to test. 
+The Criteo dataset has 2-class labels with 22 categorical features and 11 numerical features.
 
 To download the full dataset, you can use the link below
 http://labs.criteo.com/2014/02/kaggle-display-advertising-challenge-dataset/
@@ -28,7 +26,14 @@ Move to the data folder and process the raw data.
 $ python preprocess.py  
 ```
 
-#### 
+## How to run
+
+The folder already has a tiny dataset to test. You can run directly through
+
+```bash
+$ main main_all.py
+```
+
 
 
 
@@ -48,8 +53,14 @@ test_dict = data_preprocess.read_data('./data/large/valid.csv', './data/large/cr
 You need to download this repo: https://github.com/uestla/Sparse-Matrix before you start
 After the setup, you can change the directory in line-23 of the cpp file to your local dir.
 
-```cpp
+```bash
 cd latency
-g++ oath_latency.cpp
+g++ criteo_latency.cpp
+```
+
+
+To avoid setting the environment, you can also consider to test the compiled file directly.
+
+```bash
 ./a.out
 ```

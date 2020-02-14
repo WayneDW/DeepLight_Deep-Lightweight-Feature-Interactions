@@ -285,7 +285,7 @@ int main() {
     
     // Sparse DeepFwFM
     float list_rates[]= {0.2, 0.1, 0.05, 0.02, 0.01, 0.005, 0.001, 1.0};
-    set<float> rates(list_rates, list_rates+7);
+    set<float> rates(list_rates, list_rates+8);
     for (auto sparse_r: rates) {
 	init_sparse_deep(slinear_1_weight, slinear_weights, sparse_r);
     	start = std::chrono::high_resolution_clock::now();
