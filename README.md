@@ -18,25 +18,25 @@ The folder already has a tiny dataset to test. You can run the following models 
 
 LR: logistic regression
 ```bash
-$ python main_all.py -n_epochs 5 -use_fm 0 -use_fwfm 0 -use_deep 0 -use_lw 0 -use_logit 1 > ./logs/all_logistic_regression
+$ python main_all.py -use_fm 0 -use_fwfm 0 -use_deep 0 -use_lw 0 -use_logit 1 > ./logs/all_logistic_regression
 ```
 
 FM: factorization machine
 
 ```bash
-$ python main_all.py -n_epochs 5 -use_fm 1 -use_fwfm 0 -use_deep 0 -use_lw 0 > ./logs/all_fm_vanilla
+$ python main_all.py -use_fm 1 -use_fwfm 0 -use_deep 0 -use_lw 0 > ./logs/all_fm_vanilla
 ```
 
 FwFM: field weighted factorization machine
 
 ```bash
-$ python main_all.py -n_epochs 5 -use_fm 0 -use_fwfm 1 -use_deep 0 -use_lw 0 > ./logs/all_fwfm_vanilla
+$ python main_all.py -use_fm 0 -use_fwfm 1 -use_deep 0 -use_lw 0 > ./logs/all_fwfm_vanilla
 ```
 
 DeepFM: deep factorization machine
 
 ```bash
-$ python main_all.py -n_epochs 5 -use_fm 1 -use_fwfm 0 -use_deep 1 -use_lw 0 > ./logs/all_deepfm_vanilla
+$ python main_all.py -use_fm 1 -use_fwfm 0 -use_deep 1 -use_lw 0 > ./logs/all_deepfm_vanilla
 ```
 
 NFM: factorization machine
