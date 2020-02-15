@@ -90,7 +90,8 @@ test_dict = data_preprocess.read_data('./data/large/valid.csv', './data/large/cr
 
 ## How to analyze the prediction latency
 
-You need to download this repo: https://github.com/uestla/Sparse-Matrix before you start
+You need to download this repo: https://github.com/uestla/Sparse-Matrix before you start.
+
 After the setup, you can change the directory in line-23 of the cpp file to your local dir.
 
 ```bash
