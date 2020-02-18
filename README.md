@@ -1,5 +1,7 @@
 # Sparse_DeepFwFM
 
+Deploying the end-to-end deep factorization machines has a critical issue in prediction latency. We propose to prune the redundant parameters for the first time to accelerate the prediction and reduce the run-time memory usage. Most notably, we can accelerate the inference by 46X on Criteo dataset.
+
 
 ## Environment
 
