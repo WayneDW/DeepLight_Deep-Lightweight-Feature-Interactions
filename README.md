@@ -1,6 +1,6 @@
 # Sparse_DeepFwFM
 
-Deploying the end-to-end deep factorization machines has a critical issue in prediction latency. We study the acceleration of the prediction by conducting structural pruning, which ends up with 46X speed-ups without sacrifice of the state-of-the-art performance on Criteo dataset.
+Deploying the end-to-end deep factorization machines has a critical issue in prediction latency. To handle this issue, we study the acceleration of the prediction by conducting structural pruning for DeepFwFM, which ends up with 46X speed-ups without sacrifice of the state-of-the-art performance on Criteo dataset.
 
 Please refer to the [arXiv paper](https://arxiv.org/pdf/2002.06987.pdf) if you are interested. 
 
