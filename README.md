@@ -1,4 +1,10 @@
-# Sparse_DeepFwFM
+# Sparse DeepFwFM
+
+Deploying the end-to-end deep factorization machines has a critical issue in prediction latency. To handle this issue, we study the acceleration of the prediction by conducting structural pruning for DeepFwFM, which ends up with 46X speed-ups without sacrifice of the state-of-the-art performance on Criteo dataset.
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-sparse-deep-factorization-machine-for/click-through-rate-prediction-on-criteo)](https://paperswithcode.com/sota/click-through-rate-prediction-on-criteo?p=a-sparse-deep-factorization-machine-for)
+
+Please refer to the [arXiv paper](https://arxiv.org/pdf/2002.06987.pdf) if you are interested. 
 
 
 ## Environment
@@ -90,7 +96,8 @@ test_dict = data_preprocess.read_data('./data/large/valid.csv', './data/large/cr
 
 ## How to analyze the prediction latency
 
-You need to download this repo: https://github.com/uestla/Sparse-Matrix before you start
+You need to download this repo: https://github.com/uestla/Sparse-Matrix before you start.
+
 After the setup, you can change the directory in line-23 of the cpp file to your local dir.
 
 ```bash
