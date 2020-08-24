@@ -1,4 +1,4 @@
-# Sparse DeepFwFM
+# DeepLight: A Sparse DeepFwFM for accelerating the predictions on inference time.
 
 Deploying the end-to-end deep factorization machines has a critical issue in prediction latency. To handle this issue, we study the acceleration of the prediction by conducting structural pruning for DeepFwFM, which ends up with 46X speed-ups without sacrifice of the state-of-the-art performance on Criteo dataset.
 
