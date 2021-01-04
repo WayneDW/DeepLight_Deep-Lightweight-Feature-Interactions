@@ -4,7 +4,14 @@ Deploying the end-to-end deep factorization machines has a critical issue in pre
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-sparse-deep-factorization-machine-for/click-through-rate-prediction-on-criteo)](https://paperswithcode.com/sota/click-through-rate-prediction-on-criteo?p=a-sparse-deep-factorization-machine-for)
 
-Please refer to the [arXiv paper](https://arxiv.org/pdf/2002.06987.pdf) if you are interested. 
+Please refer to the [arXiv paper](https://arxiv.org/pdf/2002.06987.pdf) if you are interested in the details.
+
+@inproceedings{deeplight,
+  title={DeepLight: Deep Lightweight Feature Interactions for Accelerating CTR Predictions in Ad Serving},
+  author={Wei Deng and Junwei Pan and Tian Zhou and Deguang Kong and Aaron Flores and Guang Lin},
+  booktitle={International Conference on Web Search and Data Mining (WSDM'21)},
+  year={2021}
+}
 
 
 ## Environment
