@@ -6,13 +6,14 @@ Deploying the end-to-end deep factorization machines has a critical issue in pre
 
 Please refer to the [arXiv paper](https://arxiv.org/pdf/2002.06987.pdf) if you are interested in the details.
 
+```
 @inproceedings{deeplight,
   title={DeepLight: Deep Lightweight Feature Interactions for Accelerating CTR Predictions in Ad Serving},
   author={Wei Deng and Junwei Pan and Tian Zhou and Deguang Kong and Aaron Flores and Guang Lin},
   booktitle={International Conference on Web Search and Data Mining (WSDM'21)},
   year={2021}
 }
-
+```
 
 ## Environment
 
